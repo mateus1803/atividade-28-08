@@ -1,0 +1,47 @@
+html, body{
+    margin:0;
+    padding: 0;
+    height: 100%;
+}
+h1{
+    text-align: center;
+}
+.form{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+.button{
+    display: flex;
+    margin-left: 42%;
+    width: 50px;
+    text-align: center;
+
+}
+input{
+    font-size: 18px;
+}
+.caixas{
+    /*border-top: 2px solid #333;
+    border-bottom: 2px solid #333;*/
+    height: 100%;
+    display: flex;
+    /*row| row-rerverse| column | column| column-reverse*/
+    flex-direction: row;
+    /* nowrap | warap| wrap-reverse*/
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+
+   
+    
+}
+.caixa{
+    color: #fff;
+    border: 1px solid #333;
+    background-color: green;
+    width: 280px;
+    height: 280px;
+    margin: 3px;
+
+}

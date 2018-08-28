@@ -1,0 +1,72 @@
+html, body{
+    margin:0;
+    padding: 0;
+    
+}
+.caixas{
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    height: 100%;
+    display: flex;
+    /*row| row-rerverse| column | column| column-reverse*/
+    flex-direction: row;
+    /* nowrap | warap| wrap-reverse*/
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:stretch;
+
+   
+    
+}
+
+.centro{
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+}
+
+.esquerda{
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1px;
+}
+.direita{
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 1px;
+} 
+
+
+.caixas2{
+    
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+
+
+}
+.caixas3{
+
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items:center;
+}
+.caixas4{
+
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items:center;
+}
+
